@@ -25,7 +25,7 @@ public class Questioncontroller {
     public ResponseEntity<String >addQuestion(@RequestBody Question question){
        return questionService.addQuestions(question);
 
-
+ System.out.println("juhi");
     }
 
 
